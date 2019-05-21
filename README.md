@@ -1,1 +1,1 @@
-"# WakeOnLan-Gladys" 
+npm install node-wol
