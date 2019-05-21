@@ -1,4 +1,4 @@
-module.exports = function(sails) {
+module.exports = function() {
 
 
 	function wakeLan(mac){
