@@ -2,7 +2,11 @@ module.exports = function(sails) {
 
 
 	function wakeLan(mac){
-		return mac;
+		
+		return gladys.param.getValues(['WAKEONLAN_mac'])
+        .spread((WAKEONLAN_mac) => {
+            console.log(WAKEONLAN_mac);
+        });
 	}
 
 	
