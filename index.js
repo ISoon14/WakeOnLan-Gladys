@@ -5,15 +5,11 @@ module.exports = function(sails) {
 		return gladys.param.getValues(['WAKEONLAN_mac'])
         .spread((WAKEONLAN_mac) => {
 	    
-	    var wol = require('node-wol');
-		wol.wake(WAKEONLAN_mac);
-		wol.wake(WAKEONLAN_mac, function(error) {
-		  if(error) {
-		    return reject(new Error('Erreur lors du démarrage'));
-		  }
-		});
-		 
-		//var magicPacket = wol.createMagicPacket(WAKEONLAN_mac);
+		    const wol = require('wol');
+		    
+			wol.wake(WAKEONLAN_mac, function(err, res){
+			  console.log(res);
+			});
 
         });
 	}
