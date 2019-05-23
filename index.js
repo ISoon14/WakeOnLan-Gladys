@@ -1,11 +1,7 @@
 
-
 module.exports = function(sails) {
 
-	function wake(){
-		console.log('test');
-	}
-	
+	var wake = require('./lib/wakelan.js');
 
 	return{
 		wake:wake
