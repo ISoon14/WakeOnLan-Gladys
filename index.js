@@ -1,7 +1,7 @@
 module.exports = function(sails) {
 
-	 var command = require('./lib/command.js');
-	 var install = require('./lib/install.js');
+	 //var command = require('./lib/command.js');
+	 //var install = require('./lib/install.js');
 
 
 	return {
