@@ -1,9 +1,12 @@
 module.exports = function(sails) {
 
+	 var command = require('./lib/command.js');
+	 var install = require('./lib/install.js');
+
 
 	return {
-		install: require('./lib/install.js'),
+		install: install,
 		wakeLan:require('./lib/wakelan.js'),
-		command:require('./lib/command.js')
+		command: command,
 	};
 };
