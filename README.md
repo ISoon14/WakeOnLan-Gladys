@@ -34,4 +34,6 @@ You must create a parameters in your account. The key is "WAKEONLAN_mac" and the
 
 To know your physical address, you can make "ipconfig /all" on your windows computer and it's a adresse with this format : XX-XX-XX-XX-XX-XX. Replace ":" by "-".
 
+You can link a sentence on your brain with Label. The label called "wakeonlan.wakeLan".
+
 Enjoy ! 
