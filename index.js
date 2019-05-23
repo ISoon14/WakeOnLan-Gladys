@@ -5,8 +5,6 @@ module.exports = function(sails) {
 
 
 	return {
-		install: install,
 		wakeLan:require('./lib/wakelan.js'),
-		command: command,
 	};
 };
