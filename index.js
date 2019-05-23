@@ -2,7 +2,10 @@
 
 module.exports = function(sails) {
 
-	var wake = ('./lib/wakelan.js');
+	function wake(){
+		console.log('test');
+	}
+	
 
 	return{
 		wake:wake
